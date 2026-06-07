@@ -1,0 +1,8 @@
+pandas
+geopandas
+folium
+requests
+jupyter
+matplotlib
+seaborn
+python-dotenv
