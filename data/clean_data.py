@@ -32,21 +32,24 @@ cholera = cholera_raw[[
     "SpatialDim",        # Country ISO3 code  e.g. IND, BGD
     "ParentLocation",    # WHO Region          e.g. South-East Asia
     "TimeDim",           # Year
-    "NumericValue"       # Case count  ← our target
+    "Value"              # Case count  ← our target (using Value instead of NumericValue because NumericValue is NaN prior to 2011)
 ]].copy()
 
 # Rename for clarity
 cholera.columns = ["country_code", "region", "year", "cholera_cases"]
 
+# Clean string formatting
+cholera["cholera_cases"] = cholera["cholera_cases"].astype(str).str.replace(' ', '').str.replace(',', '')
+
 # Drop rows with no case count
 cholera.dropna(subset=["cholera_cases"], inplace=True)
-
-# Remove zero / negative case counts
-cholera = cholera[cholera["cholera_cases"] > 0]
 
 # Convert types
 cholera["year"]          = cholera["year"].astype(int)
 cholera["cholera_cases"] = cholera["cholera_cases"].astype(float)
+
+# Remove zero / negative case counts
+cholera = cholera[cholera["cholera_cases"] > 0]
 
 # Keep years 2000 onward (aligns with Dengue data)
 cholera = cholera[cholera["year"] >= 2000]
