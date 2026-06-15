@@ -1,6 +1,8 @@
 import os
 import requests
 import pandas as pd
+import zipfile
+from io import BytesIO
 
 def get_who_indicators():
     """Fetch the list of all available indicators from WHO GHO API."""
@@ -19,10 +21,17 @@ def fetch_who_data(indicator_code):
     df = pd.DataFrame(data)
     return df
 
-def fetch_cdc_data():
-    """Fetch influenza data from CDC FluView."""
-    # TODO: Implement CDC API logic here
-    pass
+def fetch_opendengue_data():
+    """Fetch global dengue data from OpenDengue repository."""
+    url = "https://github.com/OpenDengue/master-repo/raw/main/data/releases/V1.3/National_extract_V1_3.zip"
+    response = requests.get(url)
+    response.raise_for_status()
+    
+    with zipfile.ZipFile(BytesIO(response.content)) as z:
+        with z.open("National_extract_V1_3.csv") as f:
+            df = pd.read_csv(f)
+            
+    return df
 
 if __name__ == "__main__":
     print("Fetching WHO Cholera case data...")
@@ -39,3 +48,12 @@ if __name__ == "__main__":
     output_path = "data/raw/who_cholera.csv"
     cholera_df.to_csv(output_path, index=False)
     print(f"Data saved to {output_path}")
+
+    # Fetch Dengue cases
+    print("\nFetching global Dengue case data from OpenDengue...")
+    dengue_df = fetch_opendengue_data()
+    print(f"Successfully fetched {len(dengue_df)} records for Dengue globally.")
+    
+    dengue_output_path = "data/raw/who_dengue_global.csv"
+    dengue_df.to_csv(dengue_output_path, index=False)
+    print(f"Data saved to {dengue_output_path}")

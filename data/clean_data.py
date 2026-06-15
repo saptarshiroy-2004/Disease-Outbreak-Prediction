@@ -79,7 +79,7 @@ print("\n" + "="*60)
 print("  CLEANING DENGUE DATA (OpenDengue National Extract)")
 print("="*60)
 
-dengue_raw = pd.read_csv(f"{RAW_DIR}/who_dengue.csv")
+dengue_raw = pd.read_csv(f"{RAW_DIR}/who_dengue_global.csv", low_memory=False)
 
 print(f"\nRaw shape      : {dengue_raw.shape}")
 print(f"Columns        : {list(dengue_raw.columns)}")

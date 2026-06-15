@@ -19,14 +19,14 @@ def main():
     features = [
         'year', 'temp_mean_c', 'precipitation_mm', 
         'dengue_lag1', 'dengue_lag2', 'dengue_lag4', 
-        'dengue_roll3', 'high_risk'
+        'dengue_roll3'
     ]
     target = 'dengue_cases'
     
-    # Drop rows where any of these features or target is NaN (Lags create NaNs for first few years)
+    # Drop rows where any of these features or target is NaN
     model_df = df[features + [target, 'country_code']].dropna()
     
-    # 2. Split: last 3 years as test set (2023, 2024, 2025)
+    # 2. Split: last 3 years as test set
     max_year = model_df['year'].max()
     test_years = [max_year, max_year - 1, max_year - 2]
     
@@ -59,20 +59,13 @@ def main():
     print(f"MAE  : {mae:,.2f} cases per country-year")
     print(f"RMSE : {rmse:,.2f} cases per country-year")
     
-    # To compare with Prophet (which was global), aggregate predictions globally by year
-    test_df_results = test_df.copy()
-    test_df_results['predicted'] = preds
-    
-    global_test = test_df_results.groupby('year')[[target, 'predicted']].sum()
-    global_mae = mean_absolute_error(global_test[target], global_test['predicted'])
-    global_rmse = np.sqrt(mean_squared_error(global_test[target], global_test['predicted']))
-    
-    print("\n[ XGBoost Global-Aggregated Evaluation ]")
-    print(f"Prophet MAE Baseline : 427,369.84 cases")
-    print(f"XGBoost Global MAE   : {global_mae:,.2f} cases  <-- COMPARISON")
-    print("-" * 50)
-    print(f"Prophet RMSE Baseline: 452,919.91 cases")
-    print(f"XGBoost Global RMSE  : {global_rmse:,.2f} cases  <-- COMPARISON")
+    # Save predictions to CSV
+    predictions_df = test_df[['country_code', 'year', target]].copy()
+    predictions_df['predicted_cases'] = preds
+    os.makedirs("data/processed", exist_ok=True)
+    preds_path = "data/processed/xgboost_forecasts.csv"
+    predictions_df.to_csv(preds_path, index=False)
+    print(f"\n✅ Predictions saved to {preds_path}")
     
     # 5. SHAP values & Feature Importance Plot
     print("\nGenerating SHAP values and feature importance plot...")
