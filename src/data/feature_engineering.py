@@ -22,7 +22,7 @@ def engineer_features():
     
     print("Adding rolling mean (3-year)...")
     # Calculate rolling 3-year mean (min_periods=1 allows calculating it even for the first few years)
-    df['dengue_roll3'] = df.groupby('country_code')['dengue_cases'].transform(lambda x: x.rolling(window=3, min_periods=1).mean())
+    df['dengue_roll3'] = df.groupby('country_code')['dengue_cases'].transform(lambda x: x.rolling(window=3, min_periods=1).mean().shift(1))
     
     print("Adding high_risk binary column...")
     # 1 if dengue_cases > 1000 else 0

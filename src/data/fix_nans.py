@@ -39,6 +39,9 @@ def fix_nans():
     filepath = "data/processed/master_disease_data.csv"
     df = pd.read_csv(filepath)
     
+    if 'region' not in df.columns:
+        df['region'] = np.nan
+        
     missing_names = df['country_name'].isna()
     missing_regions = df['region'].isna()
     
