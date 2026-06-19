@@ -500,14 +500,15 @@ with tab3:
             textposition='outside',
             textfont=dict(size=11, color=THEME['text']),
         ))
-        fig3.update_layout(
-            title=dict(text='SHAP Feature Importance — What Drives Dengue Outbreaks?', font=dict(size=13, color=THEME['text']), x=0),
-            xaxis=dict(title='Mean |SHAP Value|', gridcolor=THEME['border'], color=THEME['text2'], linecolor=THEME['border']),
-            yaxis=dict(color=THEME['text2']),
-            **{k:v for k,v in plotly_layout.items() if k not in ['xaxis','yaxis','hovermode']},
-            hovermode='y unified',
-            margin=dict(t=40, b=20, l=10, r=60),
-        )
+        layout_dict = {**plotly_layout}
+        layout_dict.update({
+            'title': dict(text='SHAP Feature Importance — What Drives Dengue Outbreaks?', font=dict(size=13, color=THEME['text']), x=0),
+            'xaxis': dict(title='Mean |SHAP Value|', gridcolor=THEME['border'], color=THEME['text2'], linecolor=THEME['border']),
+            'yaxis': dict(color=THEME['text2']),
+            'hovermode': 'y unified',
+            'margin': dict(t=40, b=20, l=10, r=60),
+        })
+        fig3.update_layout(**layout_dict)
         st.plotly_chart(fig3, use_container_width=True)
         st.markdown(f'<div class="insight"><b>dengue_roll3</b> (3-year rolling average of past cases) is the strongest predictor — disease burden tends to persist. <b>Climate features</b> (rainfall, temperature) confirm the biological link between environment and mosquito lifecycle.</div>', unsafe_allow_html=True)
     else:
