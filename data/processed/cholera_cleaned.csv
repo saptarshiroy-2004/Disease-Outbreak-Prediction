@@ -1,0 +1,838 @@
+country_code,region,year,cholera_cases
+AFG,Eastern Mediterranean,2000,4330.0
+AFG,Eastern Mediterranean,2001,4499.0
+AFG,Eastern Mediterranean,2002,3.0
+AFG,Eastern Mediterranean,2003,41.0
+AFG,Eastern Mediterranean,2005,33.0
+AFG,Eastern Mediterranean,2008,4384.0
+AFG,Eastern Mediterranean,2009,662.0
+AFG,Eastern Mediterranean,2010,2369.0
+AFG,Eastern Mediterranean,2011,3733.0
+AFG,Eastern Mediterranean,2012,12.0
+AFG,Eastern Mediterranean,2013,3957.0
+AFG,Eastern Mediterranean,2014,45481.0
+AFG,Eastern Mediterranean,2015,58064.0
+AFG,Eastern Mediterranean,2016,677.0
+AGO,Africa,2006,67257.0
+AGO,Africa,2007,18422.0
+AGO,Africa,2008,10511.0
+AGO,Africa,2009,2019.0
+AGO,Africa,2010,1484.0
+AGO,Africa,2011,1810.0
+AGO,Africa,2012,1215.0
+AGO,Africa,2013,6655.0
+AGO,Africa,2014,213.0
+AGO,Africa,2016,78.0
+ARE,Eastern Mediterranean,2002,3.0
+AUS,Western Pacific,2000,1.0
+AUS,Western Pacific,2001,2.0
+AUS,Western Pacific,2002,5.0
+AUS,Western Pacific,2004,2.0
+AUS,Western Pacific,2005,2.0
+AUS,Western Pacific,2006,3.0
+AUS,Western Pacific,2007,3.0
+AUS,Western Pacific,2010,3.0
+AUS,Western Pacific,2011,6.0
+AUS,Western Pacific,2012,5.0
+AUS,Western Pacific,2013,3.0
+AUS,Western Pacific,2014,2.0
+AUS,Western Pacific,2015,2.0
+AUS,Western Pacific,2016,1.0
+AUT,Europe,2002,1.0
+AUT,Europe,2005,1.0
+BDI,Africa,2000,1021.0
+BDI,Africa,2001,1003.0
+BDI,Africa,2002,577.0
+BDI,Africa,2003,432.0
+BDI,Africa,2004,819.0
+BDI,Africa,2005,1309.0
+BDI,Africa,2006,886.0
+BDI,Africa,2007,365.0
+BDI,Africa,2008,234.0
+BDI,Africa,2009,355.0
+BDI,Africa,2010,333.0
+BDI,Africa,2011,1072.0
+BDI,Africa,2012,214.0
+BDI,Africa,2013,1557.0
+BDI,Africa,2014,582.0
+BDI,Africa,2015,442.0
+BDI,Africa,2016,434.0
+BEL,Europe,2004,1.0
+BEL,Europe,2005,2.0
+BEN,Africa,2000,468.0
+BEN,Africa,2001,3943.0
+BEN,Africa,2002,270.0
+BEN,Africa,2003,434.0
+BEN,Africa,2004,642.0
+BEN,Africa,2005,749.0
+BEN,Africa,2006,91.0
+BEN,Africa,2008,985.0
+BEN,Africa,2009,74.0
+BEN,Africa,2010,983.0
+BEN,Africa,2011,755.0
+BEN,Africa,2012,625.0
+BEN,Africa,2013,528.0
+BEN,Africa,2014,832.0
+BEN,Africa,2016,761.0
+BFA,Africa,2000,617.0
+BFA,Africa,2001,477.0
+BFA,Africa,2003,1.0
+BFA,Africa,2005,1050.0
+BFA,Africa,2011,20.0
+BFA,Africa,2012,143.0
+BGD,South-East Asia,2000,1021.0
+BHR,Eastern Mediterranean,2015,8.0
+BHS,Americas,2011,1.0
+BHS,Americas,2012,1.0
+BRA,Americas,2000,715.0
+BRA,Americas,2001,7.0
+BRA,Americas,2004,21.0
+BRA,Americas,2005,5.0
+BRA,Americas,2011,1.0
+BRN,Western Pacific,2011,3.0
+BWA,Africa,2008,8.0
+BWA,Africa,2009,15.0
+CAF,Africa,2004,320.0
+CAF,Africa,2011,117.0
+CAF,Africa,2012,21.0
+CAN,Americas,2000,5.0
+CAN,Americas,2001,6.0
+CAN,Americas,2002,4.0
+CAN,Americas,2003,5.0
+CAN,Americas,2004,3.0
+CAN,Americas,2005,7.0
+CAN,Americas,2006,2.0
+CAN,Americas,2007,1.0
+CAN,Americas,2008,1.0
+CAN,Americas,2009,2.0
+CAN,Americas,2010,2.0
+CAN,Americas,2011,9.0
+CAN,Americas,2013,1.0
+CAN,Americas,2014,2.0
+CAN,Americas,2015,3.0
+CAN,Americas,2016,1.0
+CHE,Europe,2006,1.0
+CHE,Europe,2015,2.0
+CHL,Americas,2011,1.0
+CHL,Americas,2013,2.0
+CHL,Americas,2014,1.0
+CHN,Western Pacific,2000,1846.0
+CHN,Western Pacific,2001,140.0
+CHN,Western Pacific,2003,223.0
+CHN,Western Pacific,2004,244.0
+CHN,Western Pacific,2005,980.0
+CHN,Western Pacific,2006,161.0
+CHN,Western Pacific,2007,168.0
+CHN,Western Pacific,2008,174.0
+CHN,Western Pacific,2009,85.0
+CHN,Western Pacific,2010,157.0
+CHN,Western Pacific,2011,26.0
+CHN,Western Pacific,2012,77.0
+CHN,Western Pacific,2013,53.0
+CHN,Western Pacific,2014,24.0
+CHN,Western Pacific,2015,13.0
+CHN,Western Pacific,2016,27.0
+CIV,Africa,2001,5912.0
+CIV,Africa,2002,4188.0
+CIV,Africa,2003,1034.0
+CIV,Africa,2004,105.0
+CIV,Africa,2005,39.0
+CIV,Africa,2006,414.0
+CIV,Africa,2007,8.0
+CIV,Africa,2008,7.0
+CIV,Africa,2009,5.0
+CIV,Africa,2010,32.0
+CIV,Africa,2011,1261.0
+CIV,Africa,2012,424.0
+CIV,Africa,2013,56.0
+CIV,Africa,2014,235.0
+CIV,Africa,2015,199.0
+CMR,Africa,2000,123.0
+CMR,Africa,2001,259.0
+CMR,Africa,2002,66.0
+CMR,Africa,2003,207.0
+CMR,Africa,2004,8005.0
+CMR,Africa,2005,2847.0
+CMR,Africa,2006,922.0
+CMR,Africa,2007,10.0
+CMR,Africa,2009,804.0
+CMR,Africa,2010,10759.0
+CMR,Africa,2011,22433.0
+CMR,Africa,2012,363.0
+CMR,Africa,2013,29.0
+CMR,Africa,2014,3355.0
+CMR,Africa,2015,124.0
+COD,Africa,2000,14995.0
+COD,Africa,2001,5728.0
+COD,Africa,2002,31658.0
+COD,Africa,2003,27272.0
+COD,Africa,2004,7665.0
+COD,Africa,2005,13430.0
+COD,Africa,2006,20642.0
+COD,Africa,2007,28269.0
+COD,Africa,2008,30150.0
+COD,Africa,2009,22899.0
+COD,Africa,2010,13884.0
+COD,Africa,2011,21700.0
+COD,Africa,2012,33661.0
+COD,Africa,2013,26944.0
+COD,Africa,2014,22203.0
+COD,Africa,2015,19182.0
+COD,Africa,2016,28093.0
+COG,Africa,2000,9.0
+COG,Africa,2006,175.0
+COG,Africa,2007,7785.0
+COG,Africa,2008,156.0
+COG,Africa,2009,93.0
+COG,Africa,2011,762.0
+COG,Africa,2012,1181.0
+COG,Africa,2013,1624.0
+COG,Africa,2016,15.0
+COL,Americas,2004,2.0
+COM,Africa,2000,3297.0
+COM,Africa,2001,226.0
+COM,Africa,2002,1567.0
+COM,Africa,2003,56.0
+COM,Africa,2004,1.0
+COM,Africa,2007,1555.0
+COM,Africa,2008,4.0
+CUB,Americas,2012,417.0
+CUB,Americas,2013,181.0
+CUB,Americas,2014,76.0
+CUB,Americas,2015,65.0
+CZE,Europe,2002,2.0
+DEU,Europe,2000,2.0
+DEU,Europe,2001,1.0
+DEU,Europe,2002,1.0
+DEU,Europe,2003,1.0
+DEU,Europe,2004,3.0
+DEU,Europe,2006,1.0
+DEU,Europe,2007,2.0
+DEU,Europe,2010,4.0
+DEU,Europe,2011,4.0
+DEU,Europe,2014,1.0
+DEU,Europe,2016,1.0
+DJI,Eastern Mediterranean,2000,1828.0
+DJI,Eastern Mediterranean,2007,1087.0
+DJI,Eastern Mediterranean,2010,2047.0
+DJI,Eastern Mediterranean,2011,127.0
+DNK,Europe,2004,1.0
+DNK,Europe,2008,1.0
+DNK,Europe,2016,1.0
+DOM,Americas,2010,191.0
+DOM,Americas,2011,20851.0
+DOM,Americas,2012,7919.0
+DOM,Americas,2013,1954.0
+DOM,Americas,2014,603.0
+DOM,Americas,2015,546.0
+DOM,Americas,2016,1159.0
+ECU,Americas,2000,27.0
+ECU,Americas,2001,9.0
+ECU,Americas,2003,25.0
+ECU,Americas,2004,5.0
+ERI,Africa,2007,119.0
+ERI,Africa,2008,1.0
+ESP,Europe,2001,1.0
+ESP,Europe,2002,1.0
+ESP,Europe,2006,2.0
+ESP,Europe,2007,2.0
+ESP,Europe,2008,5.0
+ESP,Europe,2015,2.0
+ETH,Africa,2004,16.0
+ETH,Africa,2006,54070.0
+ETH,Africa,2007,24121.0
+ETH,Africa,2008,3862.0
+ETH,Africa,2009,31509.0
+ETH,Africa,2010,1682.0
+FIN,Europe,2005,1.0
+FIN,Europe,2008,1.0
+FRA,Europe,2000,5.0
+FRA,Europe,2001,2.0
+FRA,Europe,2002,1.0
+FRA,Europe,2006,2.0
+FRA,Europe,2007,4.0
+FRA,Europe,2008,2.0
+FRA,Europe,2009,1.0
+FRA,Europe,2011,1.0
+FRA,Europe,2014,1.0
+FRA,Europe,2015,1.0
+FSM,Western Pacific,2000,3452.0
+FSM,Western Pacific,2001,14.0
+GAB,Africa,2002,6.0
+GAB,Africa,2003,629.0
+GAB,Africa,2008,2.0
+GBR,Europe,2000,33.0
+GBR,Europe,2003,9.0
+GBR,Europe,2004,13.0
+GBR,Europe,2006,49.0
+GBR,Europe,2007,32.0
+GBR,Europe,2008,8.0
+GBR,Europe,2009,16.0
+GBR,Europe,2010,8.0
+GBR,Europe,2011,32.0
+GBR,Europe,2012,17.0
+GBR,Europe,2013,6.0
+GBR,Europe,2014,14.0
+GBR,Europe,2015,15.0
+GBR,Europe,2016,19.0
+GHA,Africa,2000,3331.0
+GHA,Africa,2001,5487.0
+GHA,Africa,2002,3614.0
+GHA,Africa,2003,204.0
+GHA,Africa,2004,407.0
+GHA,Africa,2005,3166.0
+GHA,Africa,2006,3357.0
+GHA,Africa,2007,179.0
+GHA,Africa,2008,1223.0
+GHA,Africa,2009,1294.0
+GHA,Africa,2010,438.0
+GHA,Africa,2011,10628.0
+GHA,Africa,2012,9548.0
+GHA,Africa,2013,50.0
+GHA,Africa,2014,28944.0
+GHA,Africa,2015,692.0
+GHA,Africa,2016,175.0
+GIN,Africa,2000,519.0
+GIN,Africa,2001,392.0
+GIN,Africa,2002,61.0
+GIN,Africa,2003,6.0
+GIN,Africa,2004,1516.0
+GIN,Africa,2005,3821.0
+GIN,Africa,2006,3242.0
+GIN,Africa,2007,8546.0
+GIN,Africa,2008,513.0
+GIN,Africa,2009,42.0
+GIN,Africa,2011,3.0
+GIN,Africa,2012,7350.0
+GIN,Africa,2013,319.0
+GIN,Africa,2014,1.0
+GMB,Africa,2005,214.0
+GMB,Africa,2007,12.0
+GMB,Africa,2008,1.0
+GNB,Africa,2002,842.0
+GNB,Africa,2003,290.0
+GNB,Africa,2004,155.0
+GNB,Africa,2005,25111.0
+GNB,Africa,2006,37.0
+GNB,Africa,2007,153.0
+GNB,Africa,2008,14323.0
+GNB,Africa,2009,5.0
+GNB,Africa,2012,3068.0
+GNB,Africa,2013,969.0
+GNB,Africa,2014,11.0
+GNQ,Africa,2004,59.0
+GNQ,Africa,2005,6391.0
+GTM,Americas,2000,612.0
+GTM,Americas,2001,13.0
+GTM,Americas,2002,1.0
+GTM,Americas,2003,1.0
+HND,Americas,2000,8.0
+HND,Americas,2001,1.0
+HTI,Americas,2010,179379.0
+HTI,Americas,2011,340311.0
+HTI,Americas,2012,112076.0
+HTI,Americas,2013,58809.0
+HTI,Americas,2014,27753.0
+HTI,Americas,2015,36045.0
+HTI,Americas,2016,41421.0
+IDN,Western Pacific,2001,561.0
+IDN,Western Pacific,2005,1338.0
+IDN,Western Pacific,2008,1007.0
+IND,South-East Asia,2000,4053.0
+IND,South-East Asia,2001,4081.0
+IND,South-East Asia,2002,3455.0
+IND,South-East Asia,2003,2893.0
+IND,South-East Asia,2004,4695.0
+IND,South-East Asia,2005,3155.0
+IND,South-East Asia,2006,1939.0
+IND,South-East Asia,2007,2635.0
+IND,South-East Asia,2008,2680.0
+IND,South-East Asia,2010,5155.0
+IND,South-East Asia,2013,6008.0
+IND,South-East Asia,2014,4031.0
+IND,South-East Asia,2015,889.0
+IND,South-East Asia,2016,841.0
+IRL,Europe,2001,1.0
+IRN,Eastern Mediterranean,2000,345.0
+IRN,Eastern Mediterranean,2001,105.0
+IRN,Eastern Mediterranean,2002,118.0
+IRN,Eastern Mediterranean,2003,96.0
+IRN,Eastern Mediterranean,2004,94.0
+IRN,Eastern Mediterranean,2005,1133.0
+IRN,Eastern Mediterranean,2007,19.0
+IRN,Eastern Mediterranean,2008,72.0
+IRN,Eastern Mediterranean,2011,1187.0
+IRN,Eastern Mediterranean,2012,53.0
+IRN,Eastern Mediterranean,2013,256.0
+IRN,Eastern Mediterranean,2015,86.0
+IRQ,Eastern Mediterranean,2000,532.0
+IRQ,Eastern Mediterranean,2001,560.0
+IRQ,Eastern Mediterranean,2002,718.0
+IRQ,Eastern Mediterranean,2003,187.0
+IRQ,Eastern Mediterranean,2004,35.0
+IRQ,Eastern Mediterranean,2007,4697.0
+IRQ,Eastern Mediterranean,2008,925.0
+IRQ,Eastern Mediterranean,2009,6.0
+IRQ,Eastern Mediterranean,2010,2.0
+IRQ,Eastern Mediterranean,2012,4693.0
+IRQ,Eastern Mediterranean,2013,1.0
+IRQ,Eastern Mediterranean,2015,4965.0
+ISR,Europe,2013,1.0
+ITA,Europe,2006,1.0
+ITA,Europe,2007,1.0
+ITA,Europe,2013,1.0
+JPN,Western Pacific,2000,34.0
+JPN,Western Pacific,2001,11.0
+JPN,Western Pacific,2002,27.0
+JPN,Western Pacific,2003,16.0
+JPN,Western Pacific,2004,66.0
+JPN,Western Pacific,2005,43.0
+JPN,Western Pacific,2006,34.0
+JPN,Western Pacific,2011,12.0
+JPN,Western Pacific,2012,3.0
+JPN,Western Pacific,2013,8.0
+JPN,Western Pacific,2014,5.0
+JPN,Western Pacific,2015,7.0
+JPN,Western Pacific,2016,10.0
+KAZ,Europe,2001,1.0
+KAZ,Europe,2008,1.0
+KEN,Africa,2000,1157.0
+KEN,Africa,2001,1001.0
+KEN,Africa,2002,291.0
+KEN,Africa,2004,870.0
+KEN,Africa,2005,816.0
+KEN,Africa,2006,870.0
+KEN,Africa,2007,1206.0
+KEN,Africa,2008,3091.0
+KEN,Africa,2009,11425.0
+KEN,Africa,2010,3188.0
+KEN,Africa,2011,74.0
+KEN,Africa,2014,35.0
+KEN,Africa,2015,13291.0
+KEN,Africa,2016,5866.0
+KHM,Western Pacific,2004,57.0
+KHM,Western Pacific,2009,39.0
+KHM,Western Pacific,2010,588.0
+KOR,Western Pacific,2001,138.0
+KOR,Western Pacific,2004,10.0
+KOR,Western Pacific,2010,1.0
+KOR,Western Pacific,2011,3.0
+KOR,Western Pacific,2013,3.0
+KOR,Western Pacific,2016,4.0
+KWT,Eastern Mediterranean,2015,5.0
+LAO,Western Pacific,2007,169.0
+LAO,Western Pacific,2008,201.0
+LAO,Western Pacific,2010,237.0
+LBN,Eastern Mediterranean,2005,1.0
+LBR,Africa,2000,365.0
+LBR,Africa,2001,1062.0
+LBR,Africa,2002,1115.0
+LBR,Africa,2003,34740.0
+LBR,Africa,2004,2786.0
+LBR,Africa,2005,3823.0
+LBR,Africa,2006,4929.0
+LBR,Africa,2007,3063.0
+LBR,Africa,2008,1236.0
+LBR,Africa,2009,1070.0
+LBR,Africa,2010,1546.0
+LBR,Africa,2011,1146.0
+LBR,Africa,2012,219.0
+LBR,Africa,2013,92.0
+LBR,Africa,2014,44.0
+LKA,South-East Asia,2000,2.0
+LKA,South-East Asia,2002,9.0
+MDG,Africa,2000,29305.0
+MDG,Africa,2001,7219.0
+MDG,Africa,2002,27.0
+MDG,Africa,2003,5.0
+MEX,Americas,2000,5.0
+MEX,Americas,2001,1.0
+MEX,Americas,2008,1.0
+MEX,Americas,2010,1.0
+MEX,Americas,2011,1.0
+MEX,Americas,2012,2.0
+MEX,Americas,2013,187.0
+MEX,Americas,2014,14.0
+MEX,Americas,2015,1.0
+MHL,Western Pacific,2000,300.0
+MLI,Africa,2000,1885.0
+MLI,Africa,2001,67.0
+MLI,Africa,2002,18.0
+MLI,Africa,2003,1455.0
+MLI,Africa,2004,2839.0
+MLI,Africa,2005,1178.0
+MLI,Africa,2006,7.0
+MLI,Africa,2008,153.0
+MLI,Africa,2011,2220.0
+MLI,Africa,2012,219.0
+MLI,Africa,2013,23.0
+MMR,South-East Asia,2008,45.0
+MMR,South-East Asia,2011,16.0
+MMR,South-East Asia,2012,174.0
+MMR,South-East Asia,2013,33.0
+MMR,South-East Asia,2014,400.0
+MMR,South-East Asia,2015,103.0
+MMR,South-East Asia,2016,782.0
+MOZ,Africa,2000,17649.0
+MOZ,Africa,2001,8794.0
+MOZ,Africa,2002,24375.0
+MOZ,Africa,2003,13758.0
+MOZ,Africa,2004,20080.0
+MOZ,Africa,2005,2226.0
+MOZ,Africa,2006,6306.0
+MOZ,Africa,2007,2622.0
+MOZ,Africa,2008,9087.0
+MOZ,Africa,2009,19679.0
+MOZ,Africa,2010,7430.0
+MOZ,Africa,2011,1279.0
+MOZ,Africa,2012,647.0
+MOZ,Africa,2013,1869.0
+MOZ,Africa,2014,480.0
+MOZ,Africa,2015,8739.0
+MOZ,Africa,2016,883.0
+MRT,Africa,2002,80.0
+MRT,Africa,2003,34.0
+MRT,Africa,2005,4132.0
+MRT,Africa,2006,25.0
+MRT,Africa,2007,3.0
+MRT,Africa,2011,46.0
+MWI,Africa,2000,2391.0
+MWI,Africa,2001,2395.0
+MWI,Africa,2002,32618.0
+MWI,Africa,2003,2736.0
+MWI,Africa,2004,675.0
+MWI,Africa,2005,1105.0
+MWI,Africa,2006,4148.0
+MWI,Africa,2007,475.0
+MWI,Africa,2008,831.0
+MWI,Africa,2009,5751.0
+MWI,Africa,2010,1155.0
+MWI,Africa,2011,120.0
+MWI,Africa,2012,187.0
+MWI,Africa,2015,693.0
+MWI,Africa,2016,1792.0
+MYS,Western Pacific,2000,124.0
+MYS,Western Pacific,2001,557.0
+MYS,Western Pacific,2004,16.0
+MYS,Western Pacific,2006,237.0
+MYS,Western Pacific,2009,187.0
+MYS,Western Pacific,2010,443.0
+MYS,Western Pacific,2011,586.0
+MYS,Western Pacific,2012,282.0
+MYS,Western Pacific,2013,171.0
+MYS,Western Pacific,2014,134.0
+MYS,Western Pacific,2015,244.0
+NAM,Africa,2006,185.0
+NAM,Africa,2007,14.0
+NAM,Africa,2008,3496.0
+NAM,Africa,2009,159.0
+NAM,Africa,2013,3.0
+NAM,Africa,2014,485.0
+NER,Africa,2000,225.0
+NER,Africa,2001,81.0
+NER,Africa,2002,236.0
+NER,Africa,2003,292.0
+NER,Africa,2004,2178.0
+NER,Africa,2005,553.0
+NER,Africa,2006,1232.0
+NER,Africa,2007,24.0
+NER,Africa,2008,972.0
+NER,Africa,2010,1154.0
+NER,Africa,2011,2324.0
+NER,Africa,2012,5284.0
+NER,Africa,2013,585.0
+NER,Africa,2014,2059.0
+NER,Africa,2015,51.0
+NER,Africa,2016,38.0
+NGA,Africa,2000,2799.0
+NGA,Africa,2001,2312.0
+NGA,Africa,2002,5429.0
+NGA,Africa,2003,1933.0
+NGA,Africa,2004,3186.0
+NGA,Africa,2005,4477.0
+NGA,Africa,2006,2028.0
+NGA,Africa,2007,1661.0
+NGA,Africa,2008,5410.0
+NGA,Africa,2009,13691.0
+NGA,Africa,2010,44456.0
+NGA,Africa,2011,23377.0
+NGA,Africa,2012,597.0
+NGA,Africa,2013,6600.0
+NGA,Africa,2014,35996.0
+NGA,Africa,2015,5290.0
+NGA,Africa,2016,768.0
+NIC,Americas,2000,12.0
+NLD,Europe,2000,1.0
+NLD,Europe,2002,1.0
+NLD,Europe,2003,1.0
+NLD,Europe,2004,1.0
+NLD,Europe,2005,4.0
+NLD,Europe,2006,3.0
+NLD,Europe,2008,5.0
+NLD,Europe,2016,1.0
+NOR,Europe,2005,1.0
+NOR,Europe,2006,1.0
+NOR,Europe,2007,1.0
+NOR,Europe,2015,1.0
+NPL,South-East Asia,2007,264.0
+NPL,South-East Asia,2009,82.0
+NPL,South-East Asia,2010,1790.0
+NPL,South-East Asia,2011,12.0
+NPL,South-East Asia,2012,34.0
+NPL,South-East Asia,2014,933.0
+NPL,South-East Asia,2015,80.0
+NPL,South-East Asia,2016,169.0
+NZL,Western Pacific,2001,1.0
+NZL,Western Pacific,2005,1.0
+OMN,Eastern Mediterranean,2001,7.0
+OMN,Eastern Mediterranean,2002,1.0
+OMN,Eastern Mediterranean,2015,1.0
+PAK,Eastern Mediterranean,2010,164.0
+PAK,Eastern Mediterranean,2011,527.0
+PAK,Eastern Mediterranean,2012,144.0
+PAK,Eastern Mediterranean,2013,1069.0
+PAK,Eastern Mediterranean,2014,1218.0
+PER,Americas,2000,934.0
+PER,Americas,2001,494.0
+PER,Americas,2002,16.0
+PHL,Western Pacific,2000,275.0
+PHL,Western Pacific,2001,174.0
+PHL,Western Pacific,2004,533.0
+PHL,Western Pacific,2005,139.0
+PHL,Western Pacific,2006,66.0
+PHL,Western Pacific,2010,33.0
+PHL,Western Pacific,2011,120.0
+PHL,Western Pacific,2012,1864.0
+PHL,Western Pacific,2013,6.0
+PHL,Western Pacific,2014,4547.0
+PHL,Western Pacific,2016,124.0
+PNG,Western Pacific,2009,1957.0
+PNG,Western Pacific,2010,8997.0
+PNG,Western Pacific,2011,1535.0
+POL,Europe,2005,1.0
+PRY,Americas,2009,5.0
+QAT,Eastern Mediterranean,2002,1.0
+QAT,Eastern Mediterranean,2004,1.0
+QAT,Eastern Mediterranean,2005,2.0
+RUS,Europe,2001,53.0
+RUS,Europe,2004,1.0
+RUS,Europe,2006,1.0
+RUS,Europe,2007,1.0
+RUS,Europe,2010,3.0
+RUS,Europe,2012,1.0
+RUS,Europe,2014,1.0
+RWA,Africa,2000,1235.0
+RWA,Africa,2001,157.0
+RWA,Africa,2003,12.0
+RWA,Africa,2004,586.0
+RWA,Africa,2005,89.0
+RWA,Africa,2006,405.0
+RWA,Africa,2007,1453.0
+RWA,Africa,2008,23.0
+RWA,Africa,2009,67.0
+RWA,Africa,2012,9.0
+RWA,Africa,2016,355.0
+SAU,Eastern Mediterranean,2002,38.0
+SDN,Eastern Mediterranean,2006,30662.0
+SDN,Eastern Mediterranean,2007,13731.0
+SDN,Eastern Mediterranean,2008,17241.0
+SDN,Eastern Mediterranean,2009,13681.0
+SEN,Africa,2004,1227.0
+SEN,Africa,2005,31719.0
+SEN,Africa,2006,365.0
+SEN,Africa,2007,3984.0
+SEN,Africa,2008,1283.0
+SEN,Africa,2009,4.0
+SEN,Africa,2010,3.0
+SEN,Africa,2011,5.0
+SEN,Africa,2012,1.0
+SGP,Western Pacific,2000,10.0
+SGP,Western Pacific,2001,8.0
+SGP,Western Pacific,2002,2.0
+SGP,Western Pacific,2003,1.0
+SGP,Western Pacific,2004,11.0
+SGP,Western Pacific,2011,2.0
+SGP,Western Pacific,2012,2.0
+SGP,Western Pacific,2013,2.0
+SGP,Western Pacific,2014,2.0
+SLE,Africa,2004,513.0
+SLE,Africa,2005,6.0
+SLE,Africa,2006,2560.0
+SLE,Africa,2007,2219.0
+SLE,Africa,2008,62.0
+SLE,Africa,2012,23124.0
+SLE,Africa,2013,377.0
+SLV,Americas,2000,631.0
+SOM,Eastern Mediterranean,2000,7496.0
+SOM,Eastern Mediterranean,2001,2567.0
+SOM,Eastern Mediterranean,2002,2775.0
+SOM,Eastern Mediterranean,2003,11020.0
+SOM,Eastern Mediterranean,2004,4490.0
+SOM,Eastern Mediterranean,2007,41643.0
+SOM,Eastern Mediterranean,2008,1281.0
+SOM,Eastern Mediterranean,2009,208.0
+SOM,Eastern Mediterranean,2010,3510.0
+SOM,Eastern Mediterranean,2011,77636.0
+SOM,Eastern Mediterranean,2012,22576.0
+SOM,Eastern Mediterranean,2013,6864.0
+SOM,Eastern Mediterranean,2014,2820.0
+SOM,Eastern Mediterranean,2015,7536.0
+SOM,Eastern Mediterranean,2016,15619.0
+SSD,Africa,2014,6421.0
+SSD,Africa,2015,1818.0
+SSD,Africa,2016,4295.0
+STP,Africa,2005,1966.0
+STP,Africa,2006,926.0
+STP,Africa,2007,90.0
+STP,Africa,2008,119.0
+SWE,Europe,2003,1.0
+SWE,Europe,2004,1.0
+SWE,Europe,2006,1.0
+SWE,Europe,2011,1.0
+SWE,Europe,2015,1.0
+SWZ,Africa,2000,141.0
+SWZ,Africa,2001,5612.0
+SWZ,Africa,2002,134.0
+SWZ,Africa,2003,32.0
+SWZ,Africa,2004,1075.0
+SWZ,Africa,2006,18.0
+SWZ,Africa,2008,1.0
+SWZ,Africa,2009,19.0
+SYC,Africa,2007,178.0
+TCD,Africa,2001,5244.0
+TCD,Africa,2003,55.0
+TCD,Africa,2004,5531.0
+TCD,Africa,2005,90.0
+TCD,Africa,2006,1668.0
+TCD,Africa,2009,67.0
+TCD,Africa,2010,6395.0
+TCD,Africa,2011,17267.0
+TGO,Africa,2000,338.0
+TGO,Africa,2001,2551.0
+TGO,Africa,2002,257.0
+TGO,Africa,2003,384.0
+TGO,Africa,2004,1080.0
+TGO,Africa,2005,1320.0
+TGO,Africa,2006,1159.0
+TGO,Africa,2007,65.0
+TGO,Africa,2008,397.0
+TGO,Africa,2009,218.0
+TGO,Africa,2010,72.0
+TGO,Africa,2011,4.0
+TGO,Africa,2012,61.0
+TGO,Africa,2013,166.0
+TGO,Africa,2014,262.0
+TGO,Africa,2015,35.0
+THA,South-East Asia,2006,35.0
+THA,South-East Asia,2007,1428.0
+THA,South-East Asia,2008,436.0
+THA,South-East Asia,2009,315.0
+THA,South-East Asia,2010,1974.0
+THA,South-East Asia,2011,279.0
+THA,South-East Asia,2012,29.0
+THA,South-East Asia,2013,8.0
+THA,South-East Asia,2014,12.0
+THA,South-East Asia,2015,125.0
+THA,South-East Asia,2016,52.0
+TKM,Europe,2001,561.0
+TKM,Europe,2002,30.0
+TON,Western Pacific,2001,145.0
+TZA,Africa,2000,4637.0
+TZA,Africa,2001,1300.0
+TZA,Africa,2002,11920.0
+TZA,Africa,2003,710.0
+TZA,Africa,2004,10319.0
+TZA,Africa,2005,2945.0
+TZA,Africa,2006,14297.0
+TZA,Africa,2007,1609.0
+TZA,Africa,2008,2911.0
+TZA,Africa,2009,7700.0
+TZA,Africa,2010,4469.0
+TZA,Africa,2011,942.0
+TZA,Africa,2012,286.0
+TZA,Africa,2013,270.0
+TZA,Africa,2015,11563.0
+TZA,Africa,2016,11360.0
+UGA,Africa,2000,2807.0
+UGA,Africa,2001,247.0
+UGA,Africa,2002,2274.0
+UGA,Africa,2003,4377.0
+UGA,Africa,2004,3380.0
+UGA,Africa,2005,4924.0
+UGA,Africa,2006,5194.0
+UGA,Africa,2007,276.0
+UGA,Africa,2008,3726.0
+UGA,Africa,2009,1095.0
+UGA,Africa,2010,2341.0
+UGA,Africa,2012,6326.0
+UGA,Africa,2013,748.0
+UGA,Africa,2014,309.0
+UGA,Africa,2015,1461.0
+UGA,Africa,2016,516.0
+UKR,Europe,2011,33.0
+USA,Americas,2000,4.0
+USA,Americas,2001,4.0
+USA,Americas,2002,2.0
+USA,Americas,2003,2.0
+USA,Americas,2004,5.0
+USA,Americas,2005,12.0
+USA,Americas,2006,8.0
+USA,Americas,2007,7.0
+USA,Americas,2008,5.0
+USA,Americas,2009,10.0
+USA,Americas,2010,15.0
+USA,Americas,2011,42.0
+USA,Americas,2012,18.0
+USA,Americas,2013,14.0
+USA,Americas,2014,7.0
+USA,Americas,2015,4.0
+USA,Americas,2016,14.0
+VEN,Americas,2000,141.0
+VEN,Americas,2011,49.0
+VEN,Americas,2013,4.0
+VNM,Western Pacific,2007,1946.0
+VNM,Western Pacific,2008,853.0
+VNM,Western Pacific,2009,471.0
+VNM,Western Pacific,2010,606.0
+VNM,Western Pacific,2011,3.0
+YEM,Eastern Mediterranean,2009,55.0
+YEM,Eastern Mediterranean,2010,300.0
+YEM,Eastern Mediterranean,2011,31789.0
+YEM,Eastern Mediterranean,2016,15751.0
+ZAF,Africa,2000,19667.0
+ZAF,Africa,2001,106159.0
+ZAF,Africa,2002,10004.0
+ZAF,Africa,2003,3901.0
+ZAF,Africa,2004,2767.0
+ZAF,Africa,2005,3503.0
+ZAF,Africa,2008,3907.0
+ZAF,Africa,2009,10520.0
+ZAF,Africa,2013,1.0
+ZMB,Africa,2000,4504.0
+ZMB,Africa,2001,3109.0
+ZMB,Africa,2002,339.0
+ZMB,Africa,2003,1049.0
+ZMB,Africa,2004,12149.0
+ZMB,Africa,2005,1503.0
+ZMB,Africa,2006,5360.0
+ZMB,Africa,2007,2286.0
+ZMB,Africa,2008,2061.0
+ZMB,Africa,2009,4712.0
+ZMB,Africa,2010,6794.0
+ZMB,Africa,2011,330.0
+ZMB,Africa,2012,198.0
+ZWE,Africa,2000,1675.0
+ZWE,Africa,2001,650.0
+ZWE,Africa,2002,3125.0
+ZWE,Africa,2003,1009.0
+ZWE,Africa,2004,119.0
+ZWE,Africa,2005,516.0
+ZWE,Africa,2006,789.0
+ZWE,Africa,2007,65.0
+ZWE,Africa,2008,60055.0
+ZWE,Africa,2009,68153.0
+ZWE,Africa,2010,951.0
+ZWE,Africa,2011,1220.0
+ZWE,Africa,2012,23.0
+ZWE,Africa,2015,60.0
+ZWE,Africa,2016,10.0

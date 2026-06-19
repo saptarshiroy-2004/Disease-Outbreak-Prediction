@@ -16,9 +16,7 @@ venv.bak/
 .ipynb_checkpoints
 
 # Data folders
-data/raw/
-data/interim/
-data/processed/
+
 
 # Keep empty directories but ignore contents
 !data/raw/.gitkeep
