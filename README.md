@@ -1,33 +1,60 @@
-# Disease Outbreak Prediction
+# 🌍 Disease Outbreak Prediction Platform
 
-This repository contains the data pipeline, exploratory analysis, and modeling infrastructure for a global Disease Outbreak Prediction project. Currently, the project tracks two heavily climate-dependent diseases: **Dengue Fever** and **Cholera**.
+An ML-powered epidemiological dashboard that forecasts global outbreaks of Dengue and Cholera. The platform aggregates multi-source historical disease data, integrates climate and geospatial variables, and utilizes both univariate and multivariate machine learning models (Prophet & XGBoost) to provide actionable insights for global public health.
 
-## Project Status: Phase 1 (Data Collection & Exploration) - Completed
+> 🚀 **Live Demo:** Try the interactive dashboard here: [Streamlit Cloud URL]
 
-We have successfully built an automated data pipeline that cleans raw disease data and pairs it with decades of historical climate data to create a master modeling dataset.
+---
 
-### 📁 Directory Structure
-- `data/raw/` - Contains the raw CSVs from WHO (Cholera) and OpenDengue, plus the Natural Earth shapefiles.
-- `data/processed/` - Contains the cleaned datasets (`cholera_cleaned.csv`, `dengue_cleaned.csv`), the intermediate `master_disease_data.csv`, and the ultimate `final_dataset.csv`.
-- `notebooks/` - Contains Jupyter Notebooks. Currently features `01-eda-base-map.ipynb` for plotting disease trends and generating interactive choropleth maps.
-- `src/data/` - Contains the Python pipeline scripts.
+## 🛠️ Tech Stack
 
-### ⚙️ Pipeline Scripts
+- **Frontend & Visualization:** [Streamlit](https://streamlit.io/), Plotly, Folium
+- **Data Engineering:** Pandas, Numpy, GeoPandas
+- **Machine Learning:** 
+  - **Prophet:** Global aggregate baseline forecasting
+  - **XGBoost:** Country-level multivariate forecasting
+  - **Scikit-Learn:** Model evaluation and baselines
+- **Explainable AI (XAI):** SHAP (SHapley Additive exPlanations)
 
-1. **`clean_data.py`**
-   - **Purpose:** Parses the raw WHO Cholera CSV and the OpenDengue CSV.
-   - **Action:** Normalizes column names (extracting standard ISO_A3 country codes), filters out irrelevant metrics, and concatenates both diseases into a single dataset spanning 2000-2025 across 70+ countries.
-   - **Output:** `data/processed/master_disease_data.csv`
+## 📊 Data Sources
 
-2. **`fetch_climate_data.py`**
-   - **Purpose:** Automates the retrieval of historical climate data.
-   - **Action:** Reads the master dataset to identify all unique countries. Uses `geopandas` to extract the geographical centroid (latitude/longitude) of each country. It then hits the Open-Meteo Archive API to download 25 years of daily maximum temperature, minimum temperature, mean temperature, and precipitation data for each centroid. Features automatic rate-limit handling (429 backoff) and resume capabilities.
-   - **Output:** `data/raw/climate_data.csv`
+This platform relies on robust, open-source epidemiological and environmental data:
+- **[OpenDengue](https://opendengue.org/):** Global Dengue case incidence data (National Extract).
+- **[WHO Global Health Observatory (GHO)](https://www.who.int/data/gho):** Historical global Cholera case data.
+- **[Open-Meteo](https://open-meteo.com/):** Historical climate data including mean temperature and precipitation.
+- **[Natural Earth](https://www.naturalearthdata.com/):** High-resolution geospatial boundaries for choropleth mapping.
 
-3. **`merge_data.py`**
-   - **Purpose:** Creates the final modeling dataset.
-   - **Action:** Aggregates the daily Open-Meteo climate data into yearly averages (for temperature) and yearly sums (for precipitation). It then performs a left-join to merge these climate features onto the annual disease case data.
-   - **Output:** `data/processed/final_dataset.csv`
+## 🚀 How to Run Locally
 
-## Next Steps: Phase 2 (Modeling)
-With the creation of `final_dataset.csv` containing both target variables (disease cases) and features (climate data), the next phase involves building predictive machine learning models to forecast outbreaks based on shifting climate patterns.
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/Disease-Outbreak-Prediction.git
+cd Disease-Outbreak-Prediction
+```
+
+### 2. Install dependencies
+It is recommended to use a virtual environment.
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+```
+
+### 3. Run the complete data pipeline (Optional)
+If you want to re-download the data and re-train the models from scratch:
+```bash
+python src/data/fetch_disease_data.py
+python data/clean_data.py
+python src/data/fix_nans.py
+python src/data/merge_data.py
+python src/data/feature_engineering.py
+python src/models/train_prophet.py
+python src/models/train_xgboost.py
+python src/models/train_all_models.py
+```
+
+### 4. Launch the Streamlit Dashboard
+```bash
+streamlit run src/app/streamlit_app.py
+```
+The dashboard will be available in your browser at `http://localhost:8501`.
