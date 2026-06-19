@@ -2,8 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
+import os
 import warnings
 warnings.filterwarnings('ignore')
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, '..', '..', 'data', 'processed')
 
 st.set_page_config(
     page_title="Disease Outbreak Prediction",
@@ -169,16 +173,13 @@ st.markdown(f"""
 # ── LOAD DATA ────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    try:
-        df = pd.read_csv('../data/processed/model_ready_dataset.csv')
-    except:
-        df = pd.read_csv('data/processed/model_ready_dataset.csv')
+    df = pd.read_csv(os.path.join(DATA_DIR, 'model_ready_dataset.csv'))
     return df
 
 @st.cache_data
 def load_model_comparison():
     try:
-        mc = pd.read_csv('../data/processed/model_comparison.csv')
+        mc = pd.read_csv(os.path.join(DATA_DIR, 'model_comparison.csv'))
     except:
         mc = pd.DataFrame({
             'model_name':   ['Linear Regression','Random Forest','XGBoost','Prophet (Global)'],
@@ -464,10 +465,7 @@ with tab1:
 
 with tab2:
     try:
-        try:
-            fc = pd.read_csv('../data/processed/prophet_forecasts.csv')
-        except:
-            fc = pd.read_csv('data/processed/prophet_forecasts.csv')
+        fc = pd.read_csv(os.path.join(DATA_DIR, 'prophet_forecasts.csv'))
         yearly2 = df.groupby('year')[case_col].sum().reset_index()
         fig2 = go.Figure()
         fig2.add_trace(go.Scatter(x=yearly2['year'], y=yearly2[case_col], name='Historical',
