@@ -28,3 +28,26 @@ venv.bak/
 
 # User specific (if any)
 Hello.cpp
+
+# onerules / AI Agent rules files
+CLAUDE.md
+.cursor/rules/onerules.mdc
+.github/copilot-instructions.md
+AGENTS.md
+GEMINI.md
+.windsurfrules
+.clinerules
+CONVENTIONS.md
+.roo/rules/onerules.md
+.trae/rules/onerules.md
+.kiro/rules/onerules.md
+.continue/rules/onerules.md
+.rules
+.voidrules
+.goosehints
+.openhands_instructions
+.junie/guidelines.md
+.amazonq/rules/onerules.md
+.augment-guidelines
+.boltrules
+WARP.md
